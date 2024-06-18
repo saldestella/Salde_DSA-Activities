@@ -1,0 +1,48 @@
+======================================
+ 	  ABSTRACT DATA TYPE
+======================================
+
+/	Definition	/
+> a Mathematical Model together with various operations defined on that Model
+	- set of integers
+	- Operations: Union, Intersection, Set Difference
+	- ADT List, ADT Stack, ADT Queue
+> behavior is defined by a set of value and a set of operations
+> called "ABSTRACT" == gives an implementation-independent view
+
+
+/	   Operations		/
+a. Initialize(List) 
+	- prepares list to be used the first time
+b. Insert(List, elem, position) 
+	- Insert elem at pos of list
+c. Delete(List, position)
+	- Deletes the element at position of list
+d. Located(List, elem)
+	- return the position of elem in list
+e. Retrieve(List, position)
+	- return element at position of list
+
+
+/	 Implementation		/
+1. Array Implementation
+     > Advantage
+	- New elements can be added only to the tail 
+	- List is easily traversable only by the index or count element 
+     > Disadvantage
+	- Inserting
+		- inserting in middle of list needs shifting all the elements
+		  after the position of the element just to make room 
+	- Deleting
+		-also requires shifting of elements to close gap 
+		- EXCEPT: when deleting the last element 
+     > VERSIONS
+	(v1) List is a structure containing an array of elem and a count or last
+	(v2) List is a Pointer to a structure w/ array and count/last
+	(v3) List is structure w/ a pointer to a dynamic array and count/last
+	(v4) List 
+2. Linked List
+	a. by pointers
+		i.  pass-by-copy
+		ii. pass-by-address
+3. Cursor Based Implementation
