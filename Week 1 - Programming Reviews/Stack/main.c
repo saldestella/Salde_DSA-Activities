@@ -1,34 +1,55 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "stackArray.h"
+#include "stack_array.h"
+// #include "stack_linkedlist.h"
 
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
-int main(int argc, char *argv[]) {
-	Stack list;
-	
-	initStack(&list);
+int main() {
 
-	push(&list, 3);
-	push(&list, 5);
-	push(&list, 2);
-	push(&list, 7);
-	
-	printf("\nVISUALIZE STACK\n");
-	visualize(list);
-	
-	printf("\nVISUALIZE STACK\n");
-	visualize(list);
-	
-	
-	printf("\nDISPLAY STACK\n");
-	display(list);
+    Stack stack;
 
-	printf("\nVISUALIZE STACK\n");
-	visualize(list);
-	
-//	freeStack(list);
-	
-	printf("\ntest");
-	return 0;
+    // initialize the stack
+    initStack(&stack);
+
+    // check if the stack is empty
+    printf("\nIs the stack empty? %s\n", isEmpty(&stack) ? "Yes" : "No");
+
+    // try to pop from empty stack
+    printf("\nTrying to pop from the empty stack...\n");
+    pop(&stack);
+    
+    //push elements to the stack
+    printf("Pushing elements to the stack...\n");
+    for (int i = 0; i < max; i++) {
+        push(&stack, i);
+        visualize(&stack);
+    }
+
+    // check if the stack is full
+    printf("\nIs the stack full? %s\n", isFull(&stack) ? "Yes" : "No");
+
+    // try to push when the stack is full
+    printf("\nTrying to push to the full stack...\n");
+    push(&stack, max);
+    
+    visualize(&stack);
+
+    // peek at the top item
+    printf("\nTop item of the stack: %d\n", peek(&stack));
+
+    // visualizing temp_stack using pop/pull operations only *
+    printf("\ntemp_stack (made using pop/push only): ");
+    display(&stack);
+
+    // pop items from the stack
+    printf("\nPopping items from the stack...\n");
+    while (!isEmpty(&stack)) {
+        pop(&stack);
+        visualize(&stack);
+    }
+
+    // check if the stack is empty
+    printf("\n\nIs the stack empty? %s\n", isEmpty(&stack) ? "Yes" : "No");
+
+    return 0;
 }
