@@ -3,7 +3,7 @@ This repository contains the exercises that I partook whilst enrolled in my Data
 (P.S. Activties are segregated based on a week-by-week bases)
 
 ## Content
-<bold> Week 1: Programming Introductory, Review, and Stacks </bold>
+<strong> Week 1: Programming Introductory, Review, and Stacks </strong>
 <ul>
   <li>Arrays and Pointers</li>
   <li>Abstract Data Types (ADT)</li>
