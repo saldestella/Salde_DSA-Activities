@@ -12,7 +12,7 @@ This repository contains the exercises that I partook whilst enrolled in my Data
   <li>Palindrome Using Stack Linked List</li>
 </ul>
 
-<bold> Week 2: ADT Queue </bold>
+<strong> Week 2: ADT Queue </strong>
 <ul>
   <li>Dobly Linked List</li>
   <li>Queue Implementations: </li> 
@@ -32,7 +32,7 @@ This repository contains the exercises that I partook whilst enrolled in my Data
   </ul>
 </ul>
 
-<bold> Week 3: ADT Dictionary </bold>
+<strong> Week 3: ADT Dictionary </strong>
 <ul>
   <li>Hash Table Data Structure</li>
   <li>Estimating Efficiency of Hash Tables</li>
