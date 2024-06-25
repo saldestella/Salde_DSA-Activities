@@ -23,6 +23,10 @@ This repository contains the exercises that I partook whilst enrolled in my Data
   </ul>
   <li>Circular Dobly Linked List</li>
   <li>Set vs. List</li>
+  <ul>
+    <li>Union</li>
+    <li>Intersection</li>
+  </ul>
   <li>Bit-Vector Implementation of Sets</li>
   
   <li>Set Implementations: </li>
@@ -36,4 +40,5 @@ This repository contains the exercises that I partook whilst enrolled in my Data
 <ul>
   <li>Hash Table Data Structure</li>
   <li>Estimating Efficiency of Hash Tables</li>
+  <li>Dictionary</li>
 </ul>
