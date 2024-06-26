@@ -3,7 +3,7 @@ This repository contains the exercises that I partook whilst enrolled in my Data
 (P.S. Activties are segregated based on a week-by-week bases)
 
 ## Content
-<bold> Week 1: Programming Introductory, Review, and Stacks </bold>
+<strong> Week 1: Programming Introductory, Review, and Stacks </strong>
 <ul>
   <li>Arrays and Pointers</li>
   <li>Abstract Data Types (ADT)</li>
@@ -12,8 +12,33 @@ This repository contains the exercises that I partook whilst enrolled in my Data
   <li>Palindrome Using Stack Linked List</li>
 </ul>
 
-<bold> Week 2: ADT Queue </bold>
+<strong> Week 2: ADT Queue </strong>
 <ul>
   <li>Dobly Linked List</li>
+  <li>Queue Implementations: </li> 
+  <ul>
+    <li>Enqueue</li>
+    <li>dequeue</li>
+    <li>Front</li>
+  </ul>
   <li>Circular Dobly Linked List</li>
+  <li>Set vs. List</li>
+  <ul>
+    <li>Union</li>
+    <li>Intersection</li>
+  </ul>
+  <li>Bit-Vector Implementation of Sets</li>
+  
+  <li>Set Implementations: </li>
+  <ul>
+    <li>Array of Integers</li>
+    <li>Computer Word</li>
+  </ul>
+</ul>
+
+<strong> Week 3: ADT Dictionary </strong>
+<ul>
+  <li>Hash Table Data Structure</li>
+  <li>Estimating Efficiency of Hash Tables</li>
+  <li>Dictionary</li>
 </ul>
